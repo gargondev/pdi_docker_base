@@ -1,0 +1,11 @@
+    version: '3'
+    
+    services:
+      pdi_docker:
+        build: 
+          context: .
+          labels:
+            maintainer: heli2047@gmail.com
+            pdi: PDI
+            version: 9.1
+        image: pentaho_pdi_container:0.1
